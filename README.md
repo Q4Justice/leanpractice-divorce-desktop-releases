@@ -3,22 +3,33 @@
 The desktop app for Florida uncontested dissolutions with children. This page holds the installers and
 updates only.
 
-## Install
+## Download version 1.0.2
 
-Open the **[latest release](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/latest)**
-and download the file for your computer:
+Released October 30, 2026. Choose the file for your computer:
 
-| Computer | File |
+| Computer | Download |
 | --- | --- |
-| Mac with Apple Silicon (M1 or later) | `…_aarch64.dmg` |
-| Mac with Intel | `…_x64.dmg` |
-| Windows 10 or 11 | `…_x64-setup.exe` |
+| Mac with Apple Silicon (M1 or later) | [LeanPractice.MSA.Worksheet_1.0.2_aarch64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.0.2/LeanPractice.MSA.Worksheet_1.0.2_aarch64.dmg) |
+| Mac with Intel | [LeanPractice.MSA.Worksheet_1.0.2_x64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.0.2/LeanPractice.MSA.Worksheet_1.0.2_x64.dmg) |
+| Windows 10 or 11 | [LeanPractice.MSA.Worksheet_1.0.2_x64-setup.exe](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.0.2/LeanPractice.MSA.Worksheet_1.0.2_x64-setup.exe) |
 
 **Mac:** open the `.dmg` and drag the app into **Applications**, then open it from Applications.
 **Windows:** run the setup file. No administrator rights are needed.
 
 If the app isn't signed yet, the first launch shows a warning. On a Mac, right-click the app and choose
 **Open**; on Windows, choose **More info → Run anyway**.
+
+### What's new in 1.0.2
+
+- First desktop release for macOS and Windows.
+- Every case is saved as a file in a folder you choose (Documents › LeanPractice Cases to start).
+- A case list to search, sort and open your cases.
+- Automatic backups before a new version first opens your cases, and once a week.
+- An AI assistant on Claude Opus 5.5 with zero data retention: what you send is never kept or used for
+  training by the AI provider. Enter the AI key LeanPractice sends your firm in Settings › AI assistant.
+- The app checks for new versions and installs them when you choose.
+
+[All versions](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases)
 
 ## Updates
 
