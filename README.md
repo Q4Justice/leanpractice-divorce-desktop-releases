@@ -27,5 +27,5 @@ The app checks this page for new versions. When one is available it shows a bann
 
 ## Your data
 
-Cases are saved as files on your own computer (Documents › LeanPractice MSA Cases unless you choose another
+Cases are saved as files on your own computer (Documents › LeanPractice Cases unless you choose another
 folder in Settings). Nothing is sent to this page.
