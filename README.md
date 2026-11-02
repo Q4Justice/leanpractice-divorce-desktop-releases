@@ -21,6 +21,9 @@ then enter your Mac password. You only do this once.
 **Windows:** run the setup file. No administrator rights are needed. If Windows says it protected your
 PC, choose **More info › Run anyway**.
 
+Step-by-step instructions with screenshots, first-time setup and troubleshooting:
+**[Installation guide](docs/INSTALL.md)**.
+
 ### What's new in 1.1.0
 
 - Child support counts a child who is 18 and still in high school, expected to graduate before 19, once you
