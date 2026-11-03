@@ -3,15 +3,15 @@
 The desktop app for Florida uncontested dissolutions with children. This page holds the installers and
 updates only.
 
-## Download version 1.2.2
+## Download version 1.2.3
 
 Released November 3, 2026. Choose the file for your computer:
 
 | Computer | Download |
 | --- | --- |
-| Mac with Apple Silicon (M1 or later) | [LeanPractice.Divorce_1.2.2_aarch64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.2/LeanPractice.Divorce_1.2.2_aarch64.dmg) |
-| Mac with Intel | [LeanPractice.Divorce_1.2.2_x64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.2/LeanPractice.Divorce_1.2.2_x64.dmg) |
-| Windows 10 or 11 | [LeanPractice.Divorce_1.2.2_x64-setup.exe](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.2/LeanPractice.Divorce_1.2.2_x64-setup.exe) |
+| Mac with Apple Silicon (M1 or later) | [LeanPractice.Divorce_1.2.3_aarch64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.3/LeanPractice.Divorce_1.2.3_aarch64.dmg) |
+| Mac with Intel | [LeanPractice.Divorce_1.2.3_x64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.3/LeanPractice.Divorce_1.2.3_x64.dmg) |
+| Windows 10 or 11 | [LeanPractice.Divorce_1.2.3_x64-setup.exe](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.3/LeanPractice.Divorce_1.2.3_x64-setup.exe) |
 
 **Mac:** open the `.dmg` and drag the app into **Applications**, then open it from Applications.
 The first time, macOS says it can't verify the app. Close that message, open **System Settings ›
@@ -24,17 +24,15 @@ PC, choose **More info › Run anyway**.
 Step-by-step instructions with screenshots, first-time setup and troubleshooting:
 **[Installation guide](docs/INSTALL.md)**.
 
-### What's new in 1.2.2
+### What's new in 1.2.3
 
-- History now notes each term sheet or MSA draft you save, with the calculations and key figures it used, so
-  you can always tell what a document you sent out was based on.
-- The case list shows which calculations each case uses and marks the cases where newer calculations are
-  available. Sort by calculations, or type a version (for example 2026.11) in the search box.
-- If a case ever gives different figures from its last save under the same calculations, a warning says
-  which. This should not happen; if it does, export the case and send it to LeanPractice support.
-- Fixed: on a Mac, if you kept the app in the Dock, a new version showed a second icon next to it, and the
-  kept icon still opened the old copy. When the new version opens, the kept icon now opens it instead and
-  the extra icon goes. The Dock disappears for a moment while it updates.
+- Fixed: the AI assistant couldn't read the answers in a filled-in financial affidavit, whether the PDF still
+  has its form fields or was saved without them (for example from Preview on a Mac), so it saw a blank form
+  and often said "Claude didn't return an answer." It now reads every amount and ticked box next to its line,
+  and can propose a whole affidavit's worth of changes at once.
+- The AI assistant now says where each proposed change came from (the page and line, or your instruction), and
+  leaves who keeps each asset or debt for you to choose instead of giving it to Party A. Until you choose,
+  a required item on the equitable distribution step lists them.
 
 [All versions](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases)
 
