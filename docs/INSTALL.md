@@ -24,7 +24,7 @@ either system.
 | Internet | Needed to download, for updates and for the AI assistant | Same; the installer may also download Microsoft WebView2 if the PC doesn't have it |
 
 You will also want **your firm's AI key**, which LeanPractice sends to each firm separately. The app works
-without it; only the AI assistant needs it, and you can add it later.
+without it; only the AI assistant needs it, and you can add it later (see [Your AI key](#your-ai-key)).
 
 ### Which Mac do I have?
 
@@ -127,12 +127,33 @@ copied into the new folder; the old folder is left as it was.
 
 ### Your AI key
 
-1. Click **Settings** › **AI assistant**.
-2. Paste the key LeanPractice sent your firm into **Your firm's AI key (from LeanPractice)**.
-3. Click **Save key**. The app checks it and shows **Key accepted**.
+The AI assistant needs the key LeanPractice sent your firm (by email or another secure channel). The rest of
+the app works without it. Have that message open, then:
+
+1. Click **Settings** at the top right of the window. The Settings panel opens on the right.
+
+   <img src="images/ai-key-settings-button.png" alt="The buttons at the top right of the app: Cases, AI assistant, New case and Settings, with Settings highlighted" width="560">
+
+2. Scroll down the panel to the **AI assistant** section. Until a key is added it shows **No key yet**.
+3. Copy the whole key from LeanPractice's message and paste it into **Your firm's AI key (from LeanPractice)**
+   (**⌘ Cmd + V** on a Mac, **Ctrl + V** on Windows). The key appears as dots; click **Show** to check that
+   all of it was pasted, with no spaces before or after.
+4. Click **Save key** (or press **Enter**).
+
+   <img src="images/ai-key-enter.png" alt="Settings, AI assistant section: the key pasted as dots into “Your firm’s AI key (from LeanPractice)”, with the key field and the Save key button highlighted" width="430">
+
+5. The app checks the key with LeanPractice's AI service. When it is good, the section shows **Key saved** and
+   **Key accepted**.
+
+   <img src="images/ai-key-accepted.png" alt="Settings, AI assistant section after saving: “Key saved in the macOS Keychain on this computer” and the message “Key accepted”, both highlighted" width="430">
+
+Close Settings with the **×** at its top right. To use the assistant, open a case and click **AI assistant**
+at the top of the window.
 
 The key is kept in the **macOS Keychain** or **Windows Credential Manager** on this computer, not in a file.
-Each person enters it once per computer.
+Each person enters it once per computer. To check it later, open **Settings › AI assistant** and click
+**Test**; to replace it, paste the new key and click **Save key**. If the key isn't accepted, see
+[Troubleshooting](#troubleshooting).
 
 ### Your name
 
