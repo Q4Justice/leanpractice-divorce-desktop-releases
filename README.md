@@ -3,15 +3,15 @@
 The desktop app for Florida uncontested dissolutions with children. This page holds the installers and
 updates only.
 
-## Download version 1.2.0
+## Download version 1.2.1
 
 Released November 3, 2026. Choose the file for your computer:
 
 | Computer | Download |
 | --- | --- |
-| Mac with Apple Silicon (M1 or later) | [LeanPractice.Divorce_1.2.0_aarch64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.0/LeanPractice.Divorce_1.2.0_aarch64.dmg) |
-| Mac with Intel | [LeanPractice.Divorce_1.2.0_x64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.0/LeanPractice.Divorce_1.2.0_x64.dmg) |
-| Windows 10 or 11 | [LeanPractice.Divorce_1.2.0_x64-setup.exe](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.0/LeanPractice.Divorce_1.2.0_x64-setup.exe) |
+| Mac with Apple Silicon (M1 or later) | [LeanPractice.Divorce_1.2.1_aarch64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.1/LeanPractice.Divorce_1.2.1_aarch64.dmg) |
+| Mac with Intel | [LeanPractice.Divorce_1.2.1_x64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.1/LeanPractice.Divorce_1.2.1_x64.dmg) |
+| Windows 10 or 11 | [LeanPractice.Divorce_1.2.1_x64-setup.exe](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.2.1/LeanPractice.Divorce_1.2.1_x64-setup.exe) |
 
 **Mac:** open the `.dmg` and drag the app into **Applications**, then open it from Applications.
 The first time, macOS says it can't verify the app. Close that message, open **System Settings ›
@@ -24,18 +24,12 @@ PC, choose **More info › Run anyway**.
 Step-by-step instructions with screenshots, first-time setup and troubleshooting:
 **[Installation guide](docs/INSTALL.md)**.
 
-### What's new in 1.2.0
+### What's new in 1.2.1
 
-- Each case now keeps the calculations it was made with. When a future update changes the law or a formula,
-  your existing cases keep their figures until you choose to apply the new calculations. Nothing changes in
-  your figures with this update. The note under the worksheet steps and the Law tables page show which
-  calculations a case uses.
-- If several computers share your cases folder, update all of them. A case opened in this version opens
-  read-only in an older version until that computer is updated too.
-- Mac: installing a new version from the disk image no longer leaves the old copy in Applications (for
-  example "LeanPractice MSA Worksheet" next to "LeanPractice Divorce"). When the new version opens, it moves
-  the older copy to the Trash. Your cases, settings and AI key are not in the app and stay as they are. If
-  you kept the old copy in the Dock, remove that icon and add the new app instead.
+- Ready for future calculation updates. When an update brings new calculations, each case shows a notice:
+  review what changes in that case, then apply the new calculations or keep the current ones. If the case
+  has a child support adjustment, you choose whether the agreed amount or the adjustment stays the same.
+  Applying is saved in History, so you can undo it. Nothing changes in your figures with this update.
 
 [All versions](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases)
 
