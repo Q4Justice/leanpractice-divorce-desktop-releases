@@ -3,15 +3,15 @@
 The desktop app for Florida uncontested dissolutions with children. This page holds the installers and
 updates only.
 
-## Download version 1.3.2
+## Download version 2.0.1
 
-Released November 5, 2026. Choose the file for your computer:
+Released November 7, 2026. Choose the file for your computer:
 
 | Computer | Download |
 | --- | --- |
-| Mac with Apple Silicon (M1 or later) | [LeanPractice.Divorce_1.3.2_aarch64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.3.2/LeanPractice.Divorce_1.3.2_aarch64.dmg) |
-| Mac with Intel | [LeanPractice.Divorce_1.3.2_x64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.3.2/LeanPractice.Divorce_1.3.2_x64.dmg) |
-| Windows 10 or 11 | [LeanPractice.Divorce_1.3.2_x64-setup.exe](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v1.3.2/LeanPractice.Divorce_1.3.2_x64-setup.exe) |
+| Mac with Apple Silicon (M1 or later) | [LeanPractice.Divorce_2.0.1_aarch64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v2.0.1/LeanPractice.Divorce_2.0.1_aarch64.dmg) |
+| Mac with Intel | [LeanPractice.Divorce_2.0.1_x64.dmg](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v2.0.1/LeanPractice.Divorce_2.0.1_x64.dmg) |
+| Windows 10 or 11 | [LeanPractice.Divorce_2.0.1_x64-setup.exe](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases/download/v2.0.1/LeanPractice.Divorce_2.0.1_x64-setup.exe) |
 
 **Mac:** open the `.dmg` and drag the app into **Applications**, then open it from Applications.
 The first time, macOS says it can't verify the app. Close that message, open **System Settings ›
@@ -24,45 +24,51 @@ PC, choose **More info › Run anyway**.
 Step-by-step instructions with screenshots, first-time setup and troubleshooting:
 **[Installation guide](docs/INSTALL.md)**.
 
-### What's new in 1.3.2
+### What's new in 2.0.1
 
-- Accept or reject the AI assistant's proposed changes one at a time. Each change says where it goes, such as
-  "Income and expenses › Maria › Allowable deductions"; click that to open the step at the field. Accepting a change
-  applies it right away, and Undo puts the field back, unless you changed it since. "Accept N left" and "Reject N
-  left" decide the rest of a card at once.
-- The worksheet shows each change waiting for review next to its field, with a dashed border and "AI assistant
-  proposes …"; a proposed new asset, child or address shows as a shaded row. A dot on a step's number means changes
-  are waiting there.
-- "Review in worksheet" opens a bar at the bottom of the worksheet that takes you through the waiting changes one by
-  one, across every card in the conversation. Keys: A accepts, R rejects, the arrow keys move, Esc closes. On a phone,
-  the assistant steps aside while you look, and "Chat" brings it back with what you typed.
-- If a field changed after the assistant proposed a value for it, the change says what the field holds now.
-- The changes you accept from one answer of the assistant are saved together as one version in History.
-- The assistant is told which changes you rejected, so it doesn't propose them again unless you ask.
-- Proposals from earlier conversations show the same way: changes you applied show as accepted, the rest as
-  rejected, and a card you hadn't applied yet waits for review.
-- Case documents now shows whose each file is: one of the parties, joint, not a party's, or unsure. It works this out
-  from the names printed on the file, such as the employee on a pay stub or the account holders on a statement;
-  folder names don't decide it. Change any of them in the list; your choice is saved with the case and shown in
-  History. Filter the list by person; a person's documents include the joint ones.
-- With your firm's AI key saved, the AI assistant sorts the files the names don't settle, such as scans and
-  pictures, as soon as the folder is read. Up to 3 first pages of each are sent, with zero data retention, and its
-  tags say "AI:" with the reason. "Sort again: unsure" and "Sort again: all" ask it again. Without a key, nothing
-  is sent and you choose for those files under "Needs your attention".
-- A file that may hold both parties' documents, such as two people's pay stubs scanned together, is listed under
-  "Needs your attention" as possibly mixed. Keep its tag or make it joint.
-- Click a file under "Needs your attention" to open it beside the list, at the page with the name marked, and
-  choose whose it is right there.
-- Click a citation, in an answer or under a proposed change, and the page opens in the app beside the assistant,
-  with the cited words marked. Clicking a file in Case documents opens it there too.
-- The app now says "AI assistant" everywhere. Settings shows the AI service and that it keeps no data.
-- The note under the AI assistant's message box is now one line. Click "Data and privacy" to see what is kept and
-  what is sent; it stays open or closed as you left it.
-- Fixed: tables in the AI assistant's answers now show as tables. They showed as lines of text with `|` marks.
-  Links to a document page still work inside a table.
-- Fixed: numbered lists in the assistant's answers keep their numbers, with any points under a step shown under
-  it. Headings and the names of worksheet fields show cleanly, without `##` or backtick marks. Earlier
-  conversations show the same way.
+- Fixed: version 2.0.0 didn't go out as an update. This update brings everything it changed, listed below.
+
+Version 2.0.0, which didn't go out as an update:
+
+- Case documents now says at the top what it's doing: reading the files, the AI assistant sorting them (how many
+  are done, with Stop), or why sorting is waiting and what to do about it. A case with no names for the parties
+  yet says so, with a button to enter them; sorting starts by itself once they're in. A pause, such as the AI
+  service limiting requests, shows there too, with Try again.
+- Each file not sorted yet reads "Not sorted yet" in grey and says whether it's waiting for the AI assistant or
+  being read by it, in place of an orange "Unsure".
+- "Needs your attention" now asks whose a file is only once sorting has finished, so it lists only what's left
+  for you. Files that couldn't be read (password-protected, too large, not downloaded from iCloud) show right away,
+  so you can deal with them while the rest is sorted.
+- Fixed: a citation in the AI assistant's answer that quoted words with brackets, such as "401(k)", showed part of
+  its link as text and marked only part of the words on the page.
+- When a statement in the linked folder is password-protected, the AI assistant now tells you to type its password
+  under Needs your attention on Case documents, instead of suggesting you save an unlocked copy.
+- The AI assistant's answers name worksheet lines the way the worksheet does, such as "Daniel's bonus", instead of
+  internal names such as "parties.B.income.bonus".
+- Fixed: after you accepted some of the AI assistant's changes, its next answer could say they had changed nothing,
+  because it took the new values for ones that had always been there. It is now told which values your accepts
+  replaced.
+- Fixed: in the evening (from 7 pm, or 8 pm in summer), the worksheet took today's date to be tomorrow, so the term
+  sheet and the MSA draft were dated a day ahead. They now use the date on your computer.
+- Fixed: the term sheet showed a child's new age all day before the birthday.
+- Fixed in the newer calculations: the calculations use today's date in place of a support start date, filing date
+  or cash-out date the case doesn't have, and that is now the date on your computer too. In a case with no support
+  start date, a child turning 18 the next day dropped out of child support in the evening. Also, a child born on
+  March 1 of a leap year now turns 18 on March 1; before, the worksheet counted the child as 17 that day.
+- Fixed: in the newer calculations, a child of 19 to 23 marked as still in school in Step 1 now brings the $500
+  credit for other dependents to the parent who claims the child, in the income tax estimate and in Child tax
+  benefits. The child already counted for head of household.
+- Fixed: in the newer calculations, when the remaining child alternates, a child whose claim you haven't chosen yet
+  now counts as remaining, so the other child stays with the parent you chose instead of alternating from the first
+  year.
+- Fixed: in the newer calculations, an income tax estimate for a year other than 2026 didn't say it uses the 2026
+  tax tables. It now does.
+- Fixed: in the newer calculations, the reason given for head of household said "children under 19" when one of
+  them was over 19 and still in school.
+- Existing cases get those calculation fixes when you apply the newer calculations ("Newer calculations are
+  available" at the top of the case). Until then, they calculate as before. Applying them changes a figure only in
+  the situations above.
+- Fixed: for some March birthdays, "Support ends (age 18)" in Step 1 showed the day before the 18th birthday.
 
 [All versions](https://github.com/Q4Justice/leanpractice-divorce-desktop-releases/releases)
 
